@@ -1,6 +1,6 @@
 import readlineSync from "readline-sync";
 
-const getRandom = (min, max) => {
+export const getRandomNum = (min, max) => {
   return Math.floor(Math.random() * (max - min) + min);
 };
 
@@ -14,7 +14,7 @@ export const evenGame = () => {
   const maxNum = 100;
 
   while (toWin > 0) {
-    const question = getRandom(minNum, maxNum);
+    const question = getRandomNum(minNum, maxNum);
     console.log(`Question: ${question}`);
     const rightAnswer = question % 2 === 0 ? "yes" : "no";
     const answer = readlineSync.question("Your answer: ");
