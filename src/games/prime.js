@@ -46,6 +46,6 @@ export const primeGame = () => {
     } else {
       return;
     }
-    congratulations(name);
   }
+  congratulations(name);
 };

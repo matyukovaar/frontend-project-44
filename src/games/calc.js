@@ -6,13 +6,14 @@ import {
   check,
   congratulations,
 } from "../index.js";
+
 export const calcGame = () => {
   const name = getName();
   const condition = "What is the result of the expression?";
   greeting(name, condition);
   let toWin = 3;
   while (toWin > 0) {
-    const mathOper = ["+", "-", "+"];
+    const mathOper = ["+", "-", "*"];
     const randomIndex = Math.floor(Math.random() * mathOper.length);
     const oper = mathOper[randomIndex];
     let min = 1;
@@ -40,6 +41,6 @@ export const calcGame = () => {
     } else {
       return;
     }
-    congratulations(name);
   }
+  congratulations(name);
 };

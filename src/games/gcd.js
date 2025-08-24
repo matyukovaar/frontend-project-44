@@ -38,6 +38,6 @@ export const gcdGame = () => {
     } else {
       return;
     }
-    congratulations(name);
   }
+  congratulations(name);
 };

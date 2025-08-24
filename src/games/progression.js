@@ -39,6 +39,6 @@ export const progressionGame = () => {
     } else {
       return;
     }
-    congratulations(name);
   }
+  congratulations(name);
 };
