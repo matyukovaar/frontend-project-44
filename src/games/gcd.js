@@ -26,7 +26,8 @@ export const gcdGame = () => {
       if (remainder !== 0) {
         a = b
         b = remainder
-      } else {
+      }
+      else {
         rightAnswer = b
       }
     }
@@ -35,7 +36,8 @@ export const gcdGame = () => {
     const isRight = check(name, answer, rightAnswer)
     if (isRight) {
       toWin -= 1
-    } else {
+    }
+    else {
       return
     }
   }

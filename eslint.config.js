@@ -22,7 +22,7 @@ export default [
 
       '@stylistic/quotes': ['error', 'single'],
       '@stylistic/semi': ['error', 'never'],
-      '@stylistic/brace-style': ['error', '1tbs'],
+      '@stylistic/brace-style': ['error', 'stroustrup'],
       '@stylistic/operator-linebreak': ['error', 'after'],
       '@stylistic/comma-dangle': ['error', 'always-multiline'],
     },

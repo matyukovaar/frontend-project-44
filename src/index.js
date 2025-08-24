@@ -20,7 +20,8 @@ export const check = (name, answer, rightAnswer) => {
   if (rightAnswer === answer) {
     console.log('Correct!')
     return true
-  } else {
+  }
+  else {
     console.log(
       `'${answer}' is wrong answer ;(. Correct answer was '${rightAnswer}'`,
     )

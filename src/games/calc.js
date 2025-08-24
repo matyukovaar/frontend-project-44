@@ -38,7 +38,8 @@ export const calcGame = () => {
     const isRight = check(name, answer, rightAnswer)
     if (isRight) {
       toWin -= 1
-    } else {
+    }
+    else {
       return
     }
   }

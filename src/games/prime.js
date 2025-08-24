@@ -35,7 +35,8 @@ export const primeGame = () => {
     let rightAnswer
     if (isPrime(num)) {
       rightAnswer = 'yes'
-    } else {
+    }
+    else {
       rightAnswer = 'no'
     }
     console.log(`Question: ${question}`)
@@ -43,7 +44,8 @@ export const primeGame = () => {
     const isRight = check(name, answer, rightAnswer)
     if (isRight) {
       toWin -= 1
-    } else {
+    }
+    else {
       return
     }
   }

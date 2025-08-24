@@ -22,7 +22,8 @@ export const evenGame = () => {
     if (rightAnswer === answer) {
       toWin -= 1
       console.log('Correct!')
-    } else {
+    }
+    else {
       console.log(
         `'${answer}' is wrong answer ;(. Correct answer was '${rightAnswer}'`,
       )
