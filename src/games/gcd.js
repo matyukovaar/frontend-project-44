@@ -30,7 +30,7 @@ export const gcdGame = () => {
         rightAnswer = b;
       }
     }
-    console.log(question);
+    console.log(`Question: ${question}`);
     const answer = parseInt(getUserAnswer());
     const isRight = check(name, answer, rightAnswer);
     if (isRight) {

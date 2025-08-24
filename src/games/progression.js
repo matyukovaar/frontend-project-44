@@ -27,7 +27,7 @@ export const progressionGame = () => {
     let missingElement = progression[missingIndex];
     let rightAnswer = missingElement;
     progression[missingIndex] = "..";
-    let question = `${progression[0]}`;
+    let question = `Question: ${progression[0]}`;
     for (let i = 1; i < progressionLength; i++) {
       question = `${question} ${progression[i]}`;
     }

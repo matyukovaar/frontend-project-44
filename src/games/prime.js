@@ -38,7 +38,7 @@ export const primeGame = () => {
     } else {
       rightAnswer = "no";
     }
-    console.log(question);
+    console.log(`Question: ${question}`);
     const answer = getUserAnswer();
     const isRight = check(name, answer, rightAnswer);
     if (isRight) {

@@ -32,7 +32,7 @@ export const calcGame = () => {
         rightAnswer = operand1 * operand2;
         break;
     }
-    console.log(question);
+    console.log(`Question: ${question}`);
     const answer = parseInt(getUserAnswer());
     const isRight = check(name, answer, rightAnswer);
     if (isRight) {
