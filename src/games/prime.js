@@ -23,8 +23,7 @@ const isPrime = (num) => {
 }
 export const primeGame = () => {
   const name = getName()
-  const condition 
-    = 'Answer "yes" if given number is prime. Otherwise answer "no"'
+  const condition = 'Answer "yes" if given number is prime. Otherwise answer "no"'
   greeting(name, condition)
   let toWin = 3
   while (toWin > 0) {
