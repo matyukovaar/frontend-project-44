@@ -31,7 +31,7 @@ export const primeGame = () => {
     let min = 1;
     let max = 100;
     const num = getRandomNum(min, max);
-    const question = ` ${num}`;
+    const question = `${num}`;
     let rightAnswer;
     if (isPrime(num)) {
       rightAnswer = "yes";
